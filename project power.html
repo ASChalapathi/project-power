@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project</title>
+</head>
+<body>
+  
+    <script>
+        var rootElement =document.createElement('div');
+        rootElement.id ='root';
+        rootElement.className ='parent';
+        rootElement.style.backgroundColor ='yellow';
+        var textNode =document.createTextNode('the power of javascript');
+
+        var myh1 =document.createElement('h1');
+        myh1.innerHTML ="Node.js";
+
+        rootElement.appendChild(textNode);
+        rootElement.appendChild(myh1);
+        console.log(rootElement);
+
+        document.body.appendChild(rootElement);
+
+
+    </script>
+    
+</body>
+</html>
