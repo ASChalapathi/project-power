@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id ='root'>
+        <h1>Type script</h1>
+        <h2>Power of javascript</h2>
+        <h3>Single page application</h3>
+        <h1>node.js</h1>
+    </div>
+    <script>
+        var root=document.getElementById('root');
+        root.style.backgroundColor="orange";
+        console.log(root);
+        console.log(root.children);
+        root.children[0].style.backgroundColor ="red";
+        root.children[1].style.backgroundColor ="orange";
+        root.children[2].style.backgroundColor ="green";
+        root.children[3].style.backgroundColor = "blue";
+        root.children[1].style.color="white";
+        root.children[3].style.color="yellow";
+        
+
+
+    </script>
+    
+</body>
+</html>
